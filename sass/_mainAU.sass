@@ -10,10 +10,62 @@
 	
 	
 .AU_item
-	&_title
-	padding: 40px 0 40px 0
-	display: flex
-    justify-content: center
-	margin-top: 35px
-	&_subtitle
+	position: relative
+	background-color: #5DC8CD
 	display: block
+	height: 200px
+	width: 250px
+	&_title
+		padding: 10px 10px 0px 10px
+		display: flex
+		justify-content: center
+		text-align: center
+		margin-top: 35px
+		font-size: 15px
+		color: #fff
+		font-weight: 600
+	&_subtitle
+		display: block
+		font-weight: 300
+		text-align: center
+		color: #fff
+		font-size: 14px
+		padding: 0px 10px 5px 10px
+	&_plus
+		display: flex
+		justify-content: center
+		background-color: #fff
+		align-items: center
+		width: 26px
+		height: 26px
+		border-radius: 100%
+		position: absolute
+		left: 50%
+		transform: translateX(-50%)
+		margin: 0 auto
+		cursor: pointer
+		bottom: 8px
+		&:before
+			content: ''
+			display: block
+			width: 14px 
+			height: 2px 
+			background-color: #FFBB00	
+			transition: 0.3s all
+		&:after 
+			content: ''
+			position: absolute 
+			left: 50%
+			transform: translateX(-50%)
+			display: block 
+			height: 14px
+			width: 2px
+			background-color: #FFBB00	
+			transition: 0.3s all
+		&:hover 
+			&:before, &:after 
+				background-color: #EC0033	
+
+.all_au_title , .all_au_subtitle
+	font-weight: 400
+	font-size: 18px
