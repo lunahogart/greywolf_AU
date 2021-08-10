@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Montserrat:wght@100;300;400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+ 
+<title>Сероволк</title>
+
+<body>
+   
+    <header>
+        <nav>
+        <div class="container">
+            <ul class="menu">
+            <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
+            <li class="menu_item"><a href="#aulist" class="menu_link">К списку AU</a></li>
+            <li class="menu_item"><a href="#multiverse" class="menu_link">Мультиверс</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">О нас</a></li>   
+            </ul>
+        </div>
+        </nav>
+    <div class="container_bg">
+        <h1>Репозиторий со всеми AU по Сероволкам</h1>
+        <h4>Если вы попали сюда случайно, то мы тут просто балуемся. Здесь располагаются описания AU по Сероволкам, которые Олег Волков и Сергей Разумовский из комиксов bubble. Нет, нам есть что делать. Нет, у нас мало свободного времени. Да, мы тратим его на это. Да, нам всё нравится. Для кого я вообще это всё пишу? :D</h4>
+    </div>
+    
+    
+    <button class="select_AU" id="select_AU" onclick="my_alert()">Кто ты сегодня?</button>
+    <div class="button_text" id="button_text"></div>
+    
+    </header>
+
+    <section class="all_au">
+
+        <div class="container">
+            <div class="all_au_title">Нет, это не весь список AU</div>
+        <div class="row"">
+            <div class="col-md-3 col-sm">
+                <div class="AU_item" id="aulist">
+                    <div class="AU_item_title">Сирия</div>
+                    <div class="AU_item_subtitle">X-men AU: "Дэдпул" Олег и "микроволновка" Серёжа</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Бессмертная гвардия</div>
+                    <div class="AU_item_subtitle">При участии Леры</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Scarlet Soldier</div>
+                    <div class="AU_item_subtitle">Marvel AU: Олег и Серёжа эксперименты Гидры</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Джентельмены</div>
+                    <div class="AU_item_subtitle">Олег as Раймонд и Серёжа as Лора</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Убийства на заказ и раздвоение личности</div>
+                    <div class="AU_item_subtitle">Ничего необычного: два Серёжи очень сильно любят Олега и очень по-разному</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Женатики за 30</div>
+                    <div class="AU_item_subtitle">Олег - спецназовец, работающий на горячих точках. Серёжа - художник-реставратор</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Avatar: Legend of Dima</div>
+                    <div class="AU_item_subtitle">Олег и Серёжа маги огня и земли, живущие в районе Драконьих квартир, питающиеся рисом и мечтающие о большом спорте</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Dragon Age</div>
+                    <div class="AU_item_subtitle">Олег - Искатель Истины, Серёжа - эльф-инквизитор. При участии всего каста МГЧД</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Harry Potter</div>
+                    <div class="AU_item_subtitle">Олег - студент Дурмстранга, приехавший в Шармбатон на Турнир Трёх Волшебников. При участии Игоря и Марго</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Японские страсти, зачем ты мне строишь глазки</div>
+                    <div class="AU_item_subtitle">Олег - оками, Серёжа - кицуне</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Что бы я без тебя делала, Кассиан?</div>
+                    <div class="AU_item_subtitle">Мистер полковник Олег Волков с его миледи вампирессой Сериной Разумовской</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Крыло и Коготь</div>
+                    <div class="AU_item_subtitle">Самая брутальная AU о войне против инопланетян</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Князь Волков</div>
+                    <div class="AU_item_subtitle">Тёмный двореций AU. Сергей - демон, Олег - его хозяин</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Пацаны</div>
+                    <div class="AU_item_subtitle">Олег как крутой поц из Семерки, Серёжа - его сммщик</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Grishavers</div>
+                    <div class="AU_item_subtitle">Олег - сердцебит, Серёжа - sunsummoner</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item">
+                    <div class="AU_item_title">Школьники</div>
+                    <div class="AU_item_subtitle">У Олега - сынули русской мафии - внутренняя гомофобия. А у Серёжи большое терпение. А ещё там всё мило, драматично, и это Сиэтл</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item" id="au_item_last">
+                    <div class="AU_item_title">Рокер и стритартер</div>
+                    <div class="AU_item_subtitle">У Олега свой рокбэнд, Серёжа художник, уже довольно известный на мир. При участии всего каста МГхЧД</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item" id="au_item_last">
+                    <div class="AU_item_title">Терминатор</div>
+                    <div class="AU_item_subtitle">Серёжа написал ИИ, который привел к войне с машинами. Олега-терминатора и Леру-супер-солдата посылают из будущего, чтобы не дать Серёже написать код</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item" id="au_item_last">
+                    <div class="AU_item_title">Неприличный футуризм</div>
+                    <div class="AU_item_subtitle">Действия происходят на другой планетке, куда люди переселились. Серёже - 40, Олегу - 18, но влюбился Олег в него, когда был 13-и летним шкетом</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="AU_item" id="au_item_last">
+                    <div class="AU_item_title">Полиция таймлайна</div>
+                    <div class="AU_item_subtitle">Ольга - руководитель TVA, главная судья, следящая за тем, чтобы все вселенные не отходили от нужного таймлайна. Серёжа - её лучший хантер на альтернатив</div>
+                    <div class="AU_item_plus"></div>
+                </div>
+            </div>
+        </div>
+        <div class="all_au_subtitle">Потому что будут ещё :)</div>
+        </div>
+        <div class="divider"></div>
+    </section>
+
+
+    <section class="multiverse" id="multiverse">
+        <div class="multiverse_title">А ещё у нас есть мультиверс</div>
+        <div class="multiverse_subtitle">По легенде, во время одного из нападений Гидры на Алую Ведьму Серёжу и Олега Зимнего Солдата, Серёжа был настолько отлетевшим кукухой и выжатым в мире своей вселенной, что его бомбануло. И он перемешал всех Олегов и Серёж, но не абы как, а ради чего-то хорошего и прекрасного для них всех. </div>
+    </section>
+
+    <section class="about_us">
+
+    </section>
+
+    <section class="button_ass">
+    <button class="first_button" id="ass">Нажми сюда чтобы узнать, жопа ли ты</button>
+    </section>
+
+    <footer>
+        <div class="favicon_by">
+        <a href="https://twitter.com/citro_fizzy" class="twitter_artfavicon">Ссылка на художницу иконки</a>
+        </div>  
+    </footer>
+  
+<script src="js/button.js"></script>
+
+</body>
+</html>
