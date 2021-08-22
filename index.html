@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Montserrat:wght@100;300;400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -26,7 +28,6 @@
             <li class="menu_item"><a href="#multiverse" class="menu_link">Мультиверс</a></li>
             <li class="menu_item"><a href="#" class="menu_link">О нас</a></li>   
             </ul>
-        </div>
         </nav>
     <div class="container_bg">
         <h1>Репозиторий со всеми AU по Сероволкам</h1>
@@ -36,7 +37,7 @@
     
     <button class="select_AU" id="select_AU" onclick="my_alert()">Кто ты сегодня?</button>
     <div class="button_text" id="button_text"></div>
-    
+    </div>  
     </header>
 
     <section class="all_au">
@@ -192,9 +193,32 @@
 
 
     <section class="multiverse" id="multiverse">
+        <div class="container container_multiverse"></div>
         <div class="multiverse_title">А ещё у нас есть мультиверс</div>
         <div class="multiverse_subtitle">По легенде, во время одного из нападений Гидры на Алую Ведьму Серёжу и Олега Зимнего Солдата, Серёжа был настолько отлетевшим кукухой и выжатым в мире своей вселенной, что его бомбануло. И он перемешал всех Олегов и Серёж, но не абы как, а ради чего-то хорошего и прекрасного для них всех. </div>
+        </div>  
     </section>
+
+    <section class="container">
+		<section class="carousel">
+			<div class="carousel__inner">
+				<div> <h6>Вселенная джентельменов</h6> <br> <div class="carousel__descr">Рейв + джентельмен Олег</div> </div>
+				<div> <h6>ДРИ реал-лайф</h6> <br> <div class="carousel__descr">Полковник из вампиров и Серёжа из джентельменов (мы его называем принцесса-наркуля)</div></div>
+				<div> <h6>Женатики за 30</h6> <br> <div class="carousel__descr">Князь Волков и художник-реставратор</div></div>
+                <div> <h6>Аватар</h6> <br> <div class="multiverse__descr">Военный Олег и маг земли Серёжа</div></div>
+				<div> <h6>Dragon age</h6> <br> <div class="carousel__descr">Киллер Олег и инквизитор Серёжа</div></div>
+				<div> <h6>Вампиры</h6> <br> <div class="carousel__descr">Сердцебит Олег и вампирша Серина</div></div>
+                <div> <h6>Тёмный дворецкий</h6> <br> <div class="carousel__descr">Искатель Истины Олег и демон-дворецкий Сергей</div></div>
+				<div> <h6>Гришаверс</h6> <br> <div class="multiverse__descr">Маг огня Олег и sunsummoner Серёжа</div></div>
+				<div> <h6>Американская школа</h6> <br> <div class="carousel__descr">ГП Серёжа и школьник Олег. Достают Олега из шкафа, и Олег страдает, что его понимающая зайка исчезла, потому что ГП Серёжа always to hard on him</div></div>
+                <div> <h6>Марвел</h6> <br> <div class="carousel__descr">Школьничек Серёжа и Зимний Соладт Олег</div></div>
+                <div> <h6>Древняя Япония</h6> <br> <div class="carousel__descr">Оками Олег и сирийский Серёжа (микроволновка) прорабатывают его улетевшую кукуху</div></div>
+                <div> <h6>Сирия (люди X)</h6> <br> <div class="carousel__descr">Сирийский Олег и Алая ведьма Серёжа, у которого внутри основная личность Серёжи из ДРИ риал-лайф</div></div>
+                <div> <h6>Гарри Поттер</h6> <br> <div class="carousel__descr">Кицуне Серёжа и космо-Олег, и это главная ржака походу</div></div>
+                <div> <h6>Космос</h6> <br> <div class="carousel__descr">Космический Серёжа и Олег из Гарри Поттера</div></div>
+			  </div>
+		</section>
+	</section>
 
     <section class="about_us">
 
@@ -210,6 +234,10 @@
         </div>  
     </footer>
   
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/carousel.js"></script>
 <script src="js/button.js"></script>
 
 </body>
